@@ -31,5 +31,6 @@ INSTRUCTIONS
  * Install pygame module from the Python Scripts directory. For my system, it was C:\Python34\Scripts>python -m pip install pygame==2.0.0
  * To run the app, open cmd window, navigate to the ialauncher directory, invoke the main file. On my system it looked like this:
   ![image](https://github.com/lazybearsoft/ialauncher-dos/assets/87294543/7599413a-7fcc-41ee-97a8-5b301e722b32)
-*
+
+ * IF you run into an SSL cert verify kind of error, this is what I did to work around: copy the request.py file from the project's urllib folder and overwrite the Python system version. On my system it was at C:\Python34\Lib\urllib. This workaround probably makes downloading in Python less secure, so USE AT YOUR OWN RISK!
 
