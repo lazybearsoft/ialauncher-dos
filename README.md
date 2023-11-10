@@ -21,4 +21,7 @@ Why I am ill-suited for this project: I hate the Python programming environment.
 STATUS
 ======
 
-This project has been backported to work with Python 3.4.4.
+This project has been backported to work with Python 3.4.4. I have tested the project on 32-bit XP with 512MB RAM, it's working fine. HOWEVER, my laziness and lack of Python skills caused some hacky modifications just to get things running. There is no windows installer, you will have to set things up manually. The next section details what you will need to do to get this puppy up and running.
+
+INSTRUCTIONS
+============
