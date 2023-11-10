@@ -25,7 +25,7 @@ This project has been backported to work with Python 3.4.4. I have tested the pr
 
 INSTRUCTIONS
 ============
- - I put the files in C:\ialauncher and develop from there. I had to fiddle with imports to get things to work, so I am not sure if running from a different file path will break things. So you might want to use the same file path just to be safe.
- - Installed python-3.4.4.msi
- - Installed Visual Studio Express 2010. This is only needed to compile the pygame module. I tried using a wheel for pygame instead, but no luck. Remember how I said that Python makes my eyeballs ache? Well, if somebody ever wants to point out a wheel that would work with my chosen system, then let me know, I would love to get rid of VS Express 2010.
- - 
+ * I put the files in C:\ialauncher and develop from there. I had to fiddle with imports to get things to work, so I am not sure if running from a different file path will break things. So you might want to use the same file path just to be safe.
+ * Installed python-3.4.4.msi
+ * Installed Visual Studio Express 2010. This is only needed to compile the pygame module. I tried using a wheel for pygame instead, but no luck. Remember how I said that Python makes my eyeballs ache? Well, if somebody ever wants to point out a wheel that would work with my chosen system, then let me know, I would love to get rid of VS Express 2010.
+ * 
