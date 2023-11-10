@@ -29,5 +29,7 @@ INSTRUCTIONS
  * Installed python-3.4.4.msi
  * Installed Visual Studio Express 2010. This is only needed to compile the pygame module. I tried using a wheel for pygame instead, but no luck. Remember how I said that Python makes my eyeballs ache? Well, if somebody ever wants to point out a wheel that would work with my chosen system, then let me know, I would love to get rid of VS Express 2010.
  * Install pygame module from the Python Scripts directory. For my system, it was C:\Python34\Scripts>python -m pip install pygame==2.0.0
- * To run the app, open cmd window, navigate to the ialauncher directory, invoke it. On my system it looked like this: C:\ialauncher>python ialauncher\__main__.py
- * 
+ * To run the app, open cmd window, navigate to the ialauncher directory, invoke it. On my system it looked like this:
+  ![image](https://github.com/lazybearsoft/ialauncher-dos/assets/87294543/7599413a-7fcc-41ee-97a8-5b301e722b32)
+*
+
