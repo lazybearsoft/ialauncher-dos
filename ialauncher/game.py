@@ -173,7 +173,7 @@ class DOSBox(Thread):
         game = self.game
         command = DOSBOX + game.dosbox_args
         print('Executing:', ' '.join(command))
-        subprocess.run(command, capture_output=True)
+        subprocess.call(command, stdout=subprocess.PIPE)
 
         if not game.autorun:
             if os.path.isfile(game.batfile):
@@ -194,11 +194,11 @@ class Download(Thread):
             filename = unquote(u.split('/')[-1]).split('/')[-1]
             dest = os.path.join(os.path.dirname(self.gamedir), filename)
             if not os.path.isfile(dest):
-                print(f'Downloading {u}...', end='', flush=True)
+#                print(f'Downloading {u}...', end='', flush=True)
                 request.urlretrieve(u, dest)
                 print('done!')
             if filename.endswith('zip') or filename.endswith('ZIP') or filename.endswith('play'):
-                print(f'Extracting {filename}...', end='', flush=True)
+#                print(f'Extracting {filename}...', end='', flush=True)
                 try:
                     self.unzip(dest)
                     print('done!')

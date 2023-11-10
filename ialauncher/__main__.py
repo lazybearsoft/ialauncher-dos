@@ -1,8 +1,9 @@
 import argparse
 
-from .engine import Main
-from .scenes import Loading
-from . import options
+from engine import Main
+from scenes import Loading
+#from . import options
+import options as options
 
 
 def main():

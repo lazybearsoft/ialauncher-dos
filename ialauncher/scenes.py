@@ -1,11 +1,23 @@
 import os
 import random
 import pygame as pg
+
+import sys
+import os
+ 
+# setting path
+sys.path.append('C:\ialauncher')
+ 
+# importing
+#from parentdirectory.geeks import games as gd
+
 import games as gd
 
-from .gamelist import GameList
-from .engine import Scene
-from . import options
+
+from ialauncher.gamelist import GameList
+from ialauncher.engine import Scene
+#from . import options
+import options as options
 
 ADVANCE = pg.event.custom_type()
 
@@ -55,11 +67,11 @@ class Loading(Scene):
         else:
             self.load_games(10)
         screen.fill((0,0,0))
-        self.draw(screen, f'''
-Welcome to IA Launcher!
-Found games directory at: {self.games_dir}
-Loading games... {self.counter}
-''')
+#        self.draw(screen, f'''
+#Welcome to IA Launcher!
+#Found games directory at: {self.games_dir}
+#Loading games... {self.counter}
+#''')
 
 
 class Browse(Scene):
@@ -85,7 +97,8 @@ class Browse(Scene):
         if event.type == pg.KEYDOWN:
             if event.key == pg.K_ESCAPE:
                 return False
-            if handler := self.handlers.get(event.key):
+            handler = self.handlers.get(event.key)
+            if handler:
                 handler()
             if event.unicode:
                 self.games.letter(event.unicode)
@@ -124,4 +137,4 @@ class Download(Scene):
         if self.game.download_completed():
             return False
         screen.fill((0,0,0))
-        self.draw(screen, f'Downloading {self.game.urls[0]} ({self.game.get_size():.1f} MB)')
+#        self.draw(screen, f'Downloading {self.game.urls[0]} ({self.game.get_size():.1f} MB)')
