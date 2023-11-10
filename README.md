@@ -14,4 +14,8 @@ What modifications are planned:
   2) Minor quality-of-life upgrades, such as better search function and a way to mark and recall favorites.
   3) Create other forks to support other systems such as Atari ST, Amiga, etc.
 
- 
+Why I am well-suited to this project: Decades of professional programming experience, with knowledge of a score of programming languages. I also have a BS in Computer Science.
+
+Why am I ill-suited for this project: I hate the Python programming environment. Not the language itself so much, but everything else about it. Really makes my eyeballs ache anytime I have to struggle to get some random python app working. If I need an app for anything, I always choose apps written in something else, Python is always a last resort. Also, I am lazy....too lazy to re-write this project from scratch in a proper development environment. 
+
+
