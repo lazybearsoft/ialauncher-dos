@@ -38,7 +38,7 @@ INSTRUCTIONS FOR WINDOWS
  
 INSTRUCTIONS FOR ANDROID  
 ========================
- * I put the files in \Downloads\ialauncher on the sdcard and develop from there.
+ * I put the files in \Downloads\ialauncher on the sdcard and develop from there. Take the files in the android folder and overwrite the ones in the ialauncher folder (because the ones in the ialauncher folder are the files for runnning under Windows).
  * Installed Pydroid 3.
  * Installed pygame module from within Pydroid 3.
  * To run the app: In pydroid 3, open the python file named main and then click the button in the lower right to begin execution.
