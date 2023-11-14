@@ -35,4 +35,11 @@ INSTRUCTIONS FOR WINDOWS
   ![image](https://github.com/lazybearsoft/ialauncher-dos/assets/87294543/7599413a-7fcc-41ee-97a8-5b301e722b32)
 
  * IF you run into an SSL cert verify kind of error, this is what I did to work around: copy the request.py file from the project's urllib folder and overwrite the Python system version (save a copy of the original file somewhere before overwriting, just in case you want to restore it later). On my system it was at C:\Python34\Lib\urllib. This workaround probably makes downloading in Python less secure, so USE AT YOUR OWN RISK!
-
+ 
+INSTRUCTIONS FOR ANDROID  
+========================
+ * I put the files in \Downloads\ialauncher on the sdcard and develop from there.
+ * Installed Pydroid 3.
+ * Installed pygame module from within Pydroid 3.
+ * To run the app: In pydroid 3, open the python file named main and then click the button in the lower right to begin execution.
+ 
